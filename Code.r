@@ -1,10 +1,4 @@
-packages = c('quantmod')
 
-# Install all Packages with Dependencies
-install.packages(packages, dependencies = TRUE)
-
-# Load all Packages
-lapply(packages, require, character.only = TRUE)
 packages = c('quantmod')
 
 # Install all Packages with Dependencies
